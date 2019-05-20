@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaybackActivity">
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/video4"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="video4btn"
+        android:text="ПРЕДМЕТ №4"
+        android:textColor="@android:color/background_light"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/video3"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="video3btn"
+        android:text="ПРЕДМЕТ №3"
+        android:textColor="@android:color/background_light"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/video4" />
+
+    <Button
+        android:id="@+id/video2"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="video2btn"
+        android:text="ПРЕДМЕТ №2"
+        android:textColor="@android:color/background_light"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/video1" />
+
+
+
+    <Button
+        android:id="@+id/video1"
+        android:layout_width="141dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="video1btn"
+        android:text="ПРЕДМЕТ №1"
+        android:textColor="@android:color/background_light"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

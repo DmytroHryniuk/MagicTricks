@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <Button
+        android:id="@+id/video_three"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="VideoCapture_3"
+        android:text="Третій предмет"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stat_first" />
+
+    <TextView
+        android:id="@+id/stat_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="9dp"
+        android:text="Статус: Очікую"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_three" />
+
+    <TextView
+        android:id="@+id/stat_forth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="195dp"
+        android:text="Статус: Очікую"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_fort" />
+
+    <Button
+        android:id="@+id/video_fort"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="128dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="VideoCapture_4"
+        android:text="Четвертий предмет"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stat_sec" />
+
+    <Button
+        android:id="@+id/video_sec"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="VideoCapture_2"
+        android:text="Другий предмет"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stat_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="195dp"
+        android:text="Статус: Очікую"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_sec" />
+
+    <Button
+        android:id="@+id/video_first"
+        android:layout_width="185dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="132dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:onClick="VideoCapture_1"
+        android:text="Перший предмет"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stat_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="9dp"
+        android:text="Статус: Очікую"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_first" />
+
+    <Button
+        android:id="@+id/video_osn"
+        android:layout_width="311dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:onClick="captureVideo"
+        android:text="Основне відео"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="playVideo"
+        android:text="Почнемо?"
+        android:textColor="@android:color/background_light"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:id="@+id/stat_osn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Статус: Очікую"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_osn" />
+</android.support.constraint.ConstraintLayout>
