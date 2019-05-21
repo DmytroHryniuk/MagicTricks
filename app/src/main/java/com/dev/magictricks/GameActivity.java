@@ -68,28 +68,28 @@ public class GameActivity extends AppCompatActivity {
         if (requestCode == VIDEO_REQUEST && resultCode == RESULT_OK) {
             videoUri = data.getData();
             TextView editText =(TextView) findViewById(R.id.stat_osn);
-            editText.setText("Статус: Готово");
+            editText.setText(getString(R.string.ready));
 
         }
         else if(requestCode == VIDEO_REQUEST1 && resultCode == RESULT_OK){
             videoUri_1 = data.getData();
             TextView editText =(TextView) findViewById(R.id.stat_first);
-            editText.setText("Статус: Готово");
+            editText.setText(getString(R.string.ready));
         }
         else if(requestCode == VIDEO_REQUEST2 && resultCode == RESULT_OK){
             videoUri_2 = data.getData();
             TextView editText =(TextView) findViewById(R.id.stat_sec);
-            editText.setText("Статус: Готово");
+            editText.setText(getString(R.string.ready));
         }
         else if(requestCode == VIDEO_REQUEST3 && resultCode == RESULT_OK){
             videoUri_3 = data.getData();
             TextView editText =(TextView) findViewById(R.id.stat_three);
-            editText.setText("Статус: Готово");
+            editText.setText(getString(R.string.ready));
         }
         else if(requestCode == VIDEO_REQUEST4 && resultCode == RESULT_OK){
             videoUri_4 = data.getData();
             TextView editText =(TextView) findViewById(R.id.stat_forth);
-            editText.setText("Статус: Готово");
+            editText.setText(getString(R.string.ready));
         }
     }
 

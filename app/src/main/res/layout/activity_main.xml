@@ -12,7 +12,7 @@
         android:layout_height="46dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:fontFamily="sans-serif-medium"
-        android:text="ПОЧАТИ НОВУ ГРУ"
+        android:text="@string/start_new"
         android:onClick="startButton"
         android:textColor="@android:color/background_light"
         android:typeface="sans"

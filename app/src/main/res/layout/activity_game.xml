@@ -14,7 +14,7 @@
         android:layout_marginTop="25dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:onClick="VideoCapture_3"
-        android:text="Третій предмет"
+        android:text="@string/item3"
         android:textColor="@android:color/background_light"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="197dp"
         android:layout_marginTop="9dp"
-        android:text="Статус: Очікую"
+        android:text="@string/wait"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/video_three" />
 
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         android:layout_marginEnd="195dp"
-        android:text="Статус: Очікую"
+        android:text="@string/wait"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/video_fort" />
 
@@ -48,7 +48,7 @@
         android:layout_marginEnd="128dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:onClick="VideoCapture_4"
-        android:text="Четвертий предмет"
+        android:text="@string/item4"
         android:textColor="@android:color/background_light"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +62,7 @@
         android:layout_marginEnd="130dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:onClick="VideoCapture_2"
-        android:text="Другий предмет"
+        android:text="@string/item2"
         android:textColor="@android:color/background_light"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="9dp"
         android:layout_marginEnd="195dp"
-        android:text="Статус: Очікую"
+        android:text="@string/wait"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/video_sec" />
 
@@ -86,7 +86,7 @@
         android:layout_marginTop="132dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:onClick="VideoCapture_1"
-        android:text="Перший предмет"
+        android:text="@string/item1"
         android:textColor="@android:color/background_light"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="197dp"
         android:layout_marginTop="9dp"
-        android:text="Статус: Очікую"
+        android:text="@string/wait"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/video_first" />
 
@@ -109,7 +109,7 @@
         android:layout_marginTop="36dp"
         android:backgroundTint="@android:color/holo_blue_light"
         android:onClick="captureVideo"
-        android:text="Основне відео"
+        android:text="@string/mainVid"
         android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,7 +121,7 @@
         android:layout_height="43dp"
         android:backgroundTint="@android:color/holo_green_dark"
         android:onClick="playVideo"
-        android:text="Почнемо?"
+        android:text="@string/Ready_QWT"
         android:textColor="@android:color/background_light"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -136,7 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Статус: Очікую"
+        android:text="@string/wait"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"

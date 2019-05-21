@@ -23,7 +23,7 @@
         android:layout_marginTop="28dp"
         android:backgroundTint="@android:color/holo_green_dark"
         android:onClick="StartNew"
-        android:text="ПОЧАТИ НОВУ ГРУ"
+        android:text="@string/start_new"
         android:textColor="@android:color/background_light"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"

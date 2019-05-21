@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MagicTricks</string>
+    <string name="start_new">START A NEW GAME</string>
+    <string name="_4">ITEM #4</string>
+    <string name="_3">ITEM #3</string>
+    <string name="_2">ITEM #2</string>
+    <string name="_1">ITEM #1</string>
+    <string name="wait">State: none</string>
+    <string name="ready">State: Ready</string>
+    <string name="item3">Третій предмет</string>
+    <string name="item4">Четвертий предмет</string>
+    <string name="item2">Другий предмет</string>
+    <string name="item1">Перший предмет</string>
+    <string name="mainVid">MAIN VIDEO</string>
+    <string name="Ready_QWT">READY?</string>
 </resources>
